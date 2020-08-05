@@ -5,8 +5,10 @@
 
     <h1>All Task</h1>
     <ul>
-        {% for task in task %}
+        {% for task in tasks %}
             <li>{{  task }}</li>
+        {% empty %}
+            <li>No Task</li>
         {% endfor %}
     </ul>
     <a href="{% url 'tasks:add' %}">Add a New Task</a>
