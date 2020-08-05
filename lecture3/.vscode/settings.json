@@ -1,0 +1,9 @@
+{
+    "python.linting.enabled": true,
+    "[git-commit]": {
+
+        "editor.rulers": [
+            72
+        ]
+    }
+}
